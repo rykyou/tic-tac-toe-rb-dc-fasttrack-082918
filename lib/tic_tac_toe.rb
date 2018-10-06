@@ -112,6 +112,7 @@ def winner(board)
 end 
 
 def play(board)
+  puts "Please enter 1-9:"
   until over?(board) == true || draw?(board) == true
     turn(board)
   end 
